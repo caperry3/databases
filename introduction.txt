@@ -1,1 +1,53 @@
-this is a test
+1.
+
+1 string
+2 integer
+3 date
+4 float
+5 float
+
+2. a database would be used when there is a collection of data types and they
+are all specifically linked to each other. database would be used when you need to
+store, calculate, manipulate, or retrieve these data types.
+
+3. to declare equality, SQL uses one equals operator rather than most other
+languages that use two or three. also SQL is a declarative language, rather than
+a procedural language.
+
+4. using SQL, database systems can recall/retrieve data when queried. they can
+change data when prompted. strings, integers, boolean, and objects can all be
+stored, calculated, manipulated, or retrieved using queries.
+
+5. a table is an assortment of data types organized in rows and columns. value
+is the data type that is within each rows/columns cell. row is the "horizontal"
+collection or different data types all linked to each other. column is a
+collection of all the same data types not specifically linked to each other.
+
+6. string, integer, date
+
+7.
+retrieve the dates and amounts from the "payments" collection;
+result: 2016-05-01, 1500.00
+2016-05-10, 37.00
+2016-05-15, 124.93
+2016-05-23, 54.72
+retrieve the amounts that are greater than 500 from the "payments" collection;
+result: 1500.00
+retrieve the row in which Mega Foods is the payee
+result: 2016-05-15, Mega Foods, 124.94, groceries
+
+8.
+SELECT email, signup
+FROM users
+WHERE user = DeAndre Data;
+result: 'datad@comcast.net', '2008-01-20'
+
+SELECT userid
+FROM users
+WHERE email = 'aleesia.algorithm@uw.edu';
+result: 1
+
+SELECT *
+FROM users
+WHERE userid = 4;
+result: 4, 'Brandy Boolean', 'bboolean@nasa.gov', '1999-10-15'
